@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationMaker", "AnimationMaker\AnimationMaker.csproj", "{0BF2BC23-0471-4F64-8BCB-BCE090FC95D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obo.Utility", "..\OboTemplate1\Obo.Utility\Obo.Utility.csproj", "{FC50C47C-3C57-47D3-82A1-03A375F11D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obo.Gui", "..\OboTemplate1\Obo.Gui\Obo.Gui.csproj", "{0812A367-22C3-4E76-8CF1-675A0BC4AACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obo.GameUtility", "..\OboTemplate1\Obo.GameUtility\Obo.GameUtility.csproj", "{D3EF6401-7DF8-42B0-A05B-460C3F80F94A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OBO", "OBO", "{912E53BA-0C33-4F30-AB7A-91941EB24531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BF2BC23-0471-4F64-8BCB-BCE090FC95D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF2BC23-0471-4F64-8BCB-BCE090FC95D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF2BC23-0471-4F64-8BCB-BCE090FC95D1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0BF2BC23-0471-4F64-8BCB-BCE090FC95D1}.Debug|x86.Build.0 = Debug|Any CPU
+		{0BF2BC23-0471-4F64-8BCB-BCE090FC95D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF2BC23-0471-4F64-8BCB-BCE090FC95D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF2BC23-0471-4F64-8BCB-BCE090FC95D1}.Release|x86.ActiveCfg = Release|Any CPU
+		{0BF2BC23-0471-4F64-8BCB-BCE090FC95D1}.Release|x86.Build.0 = Release|Any CPU
+		{FC50C47C-3C57-47D3-82A1-03A375F11D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC50C47C-3C57-47D3-82A1-03A375F11D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC50C47C-3C57-47D3-82A1-03A375F11D04}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC50C47C-3C57-47D3-82A1-03A375F11D04}.Debug|x86.Build.0 = Debug|Any CPU
+		{FC50C47C-3C57-47D3-82A1-03A375F11D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC50C47C-3C57-47D3-82A1-03A375F11D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC50C47C-3C57-47D3-82A1-03A375F11D04}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC50C47C-3C57-47D3-82A1-03A375F11D04}.Release|x86.Build.0 = Release|Any CPU
+		{0812A367-22C3-4E76-8CF1-675A0BC4AACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0812A367-22C3-4E76-8CF1-675A0BC4AACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0812A367-22C3-4E76-8CF1-675A0BC4AACF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0812A367-22C3-4E76-8CF1-675A0BC4AACF}.Debug|x86.Build.0 = Debug|Any CPU
+		{0812A367-22C3-4E76-8CF1-675A0BC4AACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0812A367-22C3-4E76-8CF1-675A0BC4AACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0812A367-22C3-4E76-8CF1-675A0BC4AACF}.Release|x86.ActiveCfg = Release|Any CPU
+		{0812A367-22C3-4E76-8CF1-675A0BC4AACF}.Release|x86.Build.0 = Release|Any CPU
+		{D3EF6401-7DF8-42B0-A05B-460C3F80F94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EF6401-7DF8-42B0-A05B-460C3F80F94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EF6401-7DF8-42B0-A05B-460C3F80F94A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D3EF6401-7DF8-42B0-A05B-460C3F80F94A}.Debug|x86.Build.0 = Debug|Any CPU
+		{D3EF6401-7DF8-42B0-A05B-460C3F80F94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EF6401-7DF8-42B0-A05B-460C3F80F94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EF6401-7DF8-42B0-A05B-460C3F80F94A}.Release|x86.ActiveCfg = Release|Any CPU
+		{D3EF6401-7DF8-42B0-A05B-460C3F80F94A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC50C47C-3C57-47D3-82A1-03A375F11D04} = {912E53BA-0C33-4F30-AB7A-91941EB24531}
+		{0812A367-22C3-4E76-8CF1-675A0BC4AACF} = {912E53BA-0C33-4F30-AB7A-91941EB24531}
+		{D3EF6401-7DF8-42B0-A05B-460C3F80F94A} = {912E53BA-0C33-4F30-AB7A-91941EB24531}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A6349A8-399D-4D16-B9A0-23132E5870AB}
+	EndGlobalSection
+EndGlobal
