@@ -48,16 +48,9 @@ namespace AnimationMaker.Gamer
 
         #region CustomLoaders
 
-        // load texture2d
         static Texture2D Texture(string path)
         {
             return content.Load<Texture2D>("Textures/" + path);
-        }
-
-        // load sound
-        static SoundEffect Sound(string path)
-        {
-            return content.Load<SoundEffect>(path);
         }
 
         static SpriteFont Font(string path)
@@ -80,20 +73,5 @@ namespace AnimationMaker.Gamer
             return texture;
         }
 
-        public static Texture2D DrawRectangle(GraphicsDevice gd)
-        {
-            Texture2D Texture = new Texture2D(gd, 1, 1);
-            Color[] colorData = { new Color(Color.White, (int)255) };
-            Texture.SetData(colorData);
-            return Texture;
-        }
-
-        public static Texture2D DrawRectangle(GraphicsDevice gd, int width, int height)
-        {
-            Texture2D Texture = new Texture2D(gd, width, height);
-            Color[] colorData = { new Color(Color.White, (int)255) };
-            Texture.SetData(colorData);
-            return Texture;
-        }
     }
 }

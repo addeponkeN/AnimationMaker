@@ -48,27 +48,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AnimationMaker.cs" />
-    <Compile Include="Gamer\GameContent.cs" />
-    <Compile Include="Gamer\Globals.cs" />
-    <Compile Include="Gamer\Maker\GUIs\AnimationsListGui.cs" />
-    <Compile Include="Gamer\Maker\GUIs\FramesGui.cs" />
-    <Compile Include="Gamer\Maker\GUIs\MenuGui.cs" />
-    <Compile Include="Gamer\Maker\GUIs\PreviewGui.cs" />
-    <Compile Include="Gamer\Maker\GuiSettings.cs" />
-    <Compile Include="Gamer\Maker\SpriteFrame.cs" />
-    <Compile Include="Gamer\Maker\Spritesheet.cs" />
-    <Compile Include="Gamer\Maker\GUIs\SpritesheetListGui.cs" />
-    <Compile Include="Gamer\Maker\GUIs\SelectorGui.cs" />
-    <Compile Include="Gamer\Misc\MessagePopupManager.cs" />
-    <Compile Include="Gamer\Screener\MenuScreen.cs" />
-    <Compile Include="Gamer\Screener\PopupScreen.cs" />
-    <Compile Include="Gamer\Screener\Screen.cs" />
-    <Compile Include="Gamer\Screener\ScreenManager.cs" />
-    <Compile Include="Gamer\Screener\Screens\GameScreen.cs" />
-    <Compile Include="Gamer\Screener\Screens\LoadingScreen.cs" />
-    <Compile Include="Gamer\Sprites\Sprite.cs" />
-    <Compile Include="Gamer\StateMachine\State.cs" />
-    <Compile Include="Gamer\StateMachine\StateManager.cs" />
+    <Compile Include="Main\GameContent.cs" />
+    <Compile Include="Main\Globals.cs" />
+    <Compile Include="Main\Maker\GUIs\AnimationsListGui.cs" />
+    <Compile Include="Main\Maker\GUIs\FramesGui.cs" />
+    <Compile Include="Main\Maker\GUIs\MenuGui.cs" />
+    <Compile Include="Main\Maker\GUIs\PreviewGui.cs" />
+    <Compile Include="Main\Maker\GuiSettings.cs" />
+    <Compile Include="Main\Maker\SpriteFrame.cs" />
+    <Compile Include="Main\Maker\Spritesheet.cs" />
+    <Compile Include="Main\Maker\GUIs\SpritesheetListGui.cs" />
+    <Compile Include="Main\Maker\GUIs\SelectorGui.cs" />
+    <Compile Include="Main\Misc\MessagePopupManager.cs" />
+    <Compile Include="Main\Screener\PopupScreen.cs" />
+    <Compile Include="Main\Screener\Screen.cs" />
+    <Compile Include="Main\Screener\ScreenManager.cs" />
+    <Compile Include="Main\Screener\GameScreen.cs" />
+    <Compile Include="Main\Sprites\Sprite.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

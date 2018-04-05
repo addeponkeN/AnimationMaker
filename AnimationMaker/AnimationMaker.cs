@@ -44,33 +44,5 @@ namespace AnimationMaker
             screenManager.AddScreen(new GameScreen());
             
         }
-
-        //protected override void Initialize()
-        //{
-
-        //    base.Initialize();
-        //}
-
-        //protected override void LoadContent()
-        //{
-        //    spriteBatch = new SpriteBatch(GraphicsDevice);
-        //}
-
-        //protected override void UnloadContent()
-        //{
-
-        //}
-
-        //protected override void Update(GameTime gameTime)
-        //{
-        //    base.Update(gameTime);
-        //}
-
-        //protected override void Draw(GameTime gameTime)
-        //{
-        //    GraphicsDevice.Clear(new Color(33, 33, 33));
-
-        //    base.Draw(gameTime);
-        //}
     }
 }
